@@ -4,17 +4,19 @@
   </header>
   <nav class="navbar navbar-default">
     <div class="container-fluid">
-      <div class="navbar-header  pull-right">
-        <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-
-            <li>{{#link-to entertainment}}Entertainment{{/link-to}}</li>
-            <li>{{#link-to fashion}}Fashion{{/link-to}}</li>
-            <li>{{#link-to politics}}Politics{{/link-to}}</li>
-          </ul>
-        </div>
+      <div class="navbar-header">
+        <ul class="nav navbar-nav">
+          <li>{{#link-to 'admin'}}Admin{{/link-to}}</li>
+        </ul>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li>{{#link-to entertainment}}Entertainment{{/link-to}}</li>
+          <li>{{#link-to fashion}}Fashion{{/link-to}}</li>
+          <li>{{#link-to politics}}Politics{{/link-to}}</li>
+        </ul>
       </div>
     </div>
   </nav>
-    {{outlet}}
+  {{outlet}}
 </div>
