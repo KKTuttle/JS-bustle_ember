@@ -1,16 +1,18 @@
 <h6>Logged in as Admin</h6>
+{{new-story save2="save3"}}
 <h3>Current Stories:</h3>
 <div class="row">
   {{#each model as |story|}}
     <div class="col-sm-4">
-      <img src={{story.photo}} alt={{story.headline}}>
-      <br>
-      {{#link-to 'story' story.id}}{{story.headline}}{{/link-to}}
-      <br>
-        by {{story.author}}
-      <hr>
+      <img class="boxImage" src={{story.photo}} alt={{story.headline}}>
+      <div class="container-description">
+        {{#link-to 'story' story.id}}{{story.headline}}{{/link-to}}
+        <div class="story-author">
+          <h6>by {{story.author}}</h6>
+        </div>
+        {{update-story story=story update='update'}}
+        <br>
+      </div>
     </div>
   {{/each}}
 </div>
-
-{{new-story save2="save3"}}

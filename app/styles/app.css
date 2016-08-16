@@ -1,7 +1,9 @@
-img {
+.boxImage {
   width: 300px;
   height: 250px;
 }
-/*.navbar-right{
-  float: right;
-}*/
+.col-sm-4 {
+  /*height: 400px;*/
+  /*margin:5px;*/
+  /*width: 32%;*/
+}
