@@ -1,8 +1,13 @@
 <h3>Current Stories:</h3>
-
-<ul>
+<div class="row">
   {{#each model as |story|}}
-    <li>{{story.headline}} by {{story.author}}</li>
-    <img src={{story.photo}} alt={{story.headline}}>
+    <div class="col-sm-4 article">
+      <img src={{story.photo}} alt={{story.headline}}>
+      <br>
+      {{#link-to 'story' story.id}}{{story.headline}}{{/link-to}}
+      <br>
+        by {{story.author}}
+      <hr>
+    </div>
   {{/each}}
-</ul>
+</div>

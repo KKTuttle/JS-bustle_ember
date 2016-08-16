@@ -1,10 +1,24 @@
 { "stories" : [{
   "headline": "Olympic athelete found in the gutter passed out",
   "photo": "http://cdn.ebaumsworld.com/mediaFiles/picture/2308751/84208928.jpg",
-  "author": "Buck Jones"
+  "author": "Buck Jones",
+  "articleText": "A prominent olympic athlete from the United States was found in the gutter puking and passed out. Nobody knew why he was drinking so heavily in the midst of a competition, but his psychologist says he is deeply damaged and has struggled with substance abuse for most of his life."
   }, {
     "headline": "Donald Trump declare he will nuke world tomorrow",
     "photo": "http://img.wonkette.com/wp-content/uploads/2016/08/nbc-fires-donald-trump-after-he-calls-mexicans-rapists-and-drug-runners.jpg",
-    "author": "Susan Doe"
+    "author": "Susan Doe",
+    "articleText": "The bufoon presidential candidate Donald Trump declared on Saturday that if he is elected president he will drop nuclear weapons on most of the world's countries. It is now official that only psychopaths could consider voting for this man."
+  },
+  {
+    "headline": "New version of bootstrap!",
+    "photo": "http://andrewembler.com/application/files/4814/3187/9931/twitter-bootstrap.jpg",
+    "author": "James Williams",
+    "articleText": "Twitter announced that it is releasing its most current version of bootstrap this week. It will include various new updates and features that have been requested by many developers!"
+  },
+  {
+    "headline": "Some celebrity did a stupid thing again!",
+    "photo": "http://myvideogamelist.com/images/userpics/b10dc062e0Funny-Meme-Faces-No-11.jpg",
+    "author": "Gossip Girl",
+    "articleText": "No comment. I don't know what I can say about this."
   }]
 }
