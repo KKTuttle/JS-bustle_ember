@@ -1,7 +1,15 @@
 # Bustle-clone
+## By Katarina Tuttle
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+A clone of Bustle using Ember.js
+
+## Technologies Used
+
+* EmberJS
+* TypeScript
+* Node JS
+* Bower
+* Bootstrap
 
 ## Prerequisites
 
@@ -50,4 +58,15 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+
+## Support and contact details
+
+_Contact by email: katka.karolcikova@gmail.com_
+* Github: kktuttle
+* https://github.com/KKTuttle/JS-bustle_ember
+
+###  License
+
+_This software is licensed under the MIT license._<br><br>
+Copyright (c) 2016 **Katarina Tuttle**
 
